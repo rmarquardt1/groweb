@@ -1,0 +1,439 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+
+    <!--            <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
+
+
+    <!--For Plugins external css-->
+    <link rel="stylesheet" href="assets/css/plugins.css" />
+
+    <!--Theme custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--Theme Responsive css-->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+
+<body data-spy="scroll" data-target="#main-navbar">
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <div class='preloader'>
+        <div class='loaded'>&nbsp;</div>
+    </div>
+    <div id="viewOverlayT"></div>
+    <div id="viewOverlayB"></div>
+    
+    
+    <div id="viewOverlayL"></div>
+    <div id="viewOverlayR"></div>
+    
+    
+    
+    <div id="viewBox" class="shadow">
+        <div id="viewBoxHeader">
+            <span id="closeView">Close</span>
+        </div>
+    
+    
+    
+    </div>
+    
+    
+    <div id="menubar" class="main-menu">
+        <nav class="navbar navbar-default navbar-fixed-top menu-bg nav-no-scroll">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    <a class="navbar-brand" href="index.html"><img src="assets/images/groweb_logo.svg" alt="" /></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+                        <li><a href="#works-area">Services</a></li>
+                        <li class="active"><a href="templates.html">Templates</a></li>
+<!--
+                        <li><a href="#our-team">About</a></li>
+                        <li><a href="#our-portfolio">Portfolio</a></li>
+                        <li><a href="#our-history">Academic</a></li>
+                        <li><a href="#our-feature">Blog</a></li>
+-->
+                        <li><a href="hosting.html">Web Hosting</a></li>
+                        <li><a href="#">Contact Us</a></li>
+
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </div>
+
+
+
+    <!--Home page style-->
+
+
+    <!--
+    <header id="home" class="sections">
+        <div class="container">
+
+            <div class="row">
+                <div class="homepage-style">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="unique-apps">
+                            <img src="assets/images/groweb_logo_bevel1.svg" alt="" style="width:100%;" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+-->
+
+    <!-- Sections -->
+    <section id="our-portfolio" class="sections">
+        <div class="container">
+
+            <div class="row">
+                <div class="heading page-heading">
+                    <div class="title text-center arrow-right">
+                        <h4 class="">TEMPLATES</h4>
+                        <!--                        <img class="hidden-xs" src="assets/images/right-arrow.png" alt="" />-->
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row template-row first-row">
+                <div class="col-lg-4 col-md-4">
+                    
+                        <h4>Aesthetic</h4>
+                    <div class="template" id="aesthetic">
+                        <img src="assets/images/screenshots/aesthetic.png" class="screenshot shadow" />
+                        <a class="view desktop-view" data-viewtype="desktop">Desktop</a>
+                        <a class="view tablet-view" data-viewtype="tablet">Tablet</a>
+                        <a class="view mobile-view" data-viewtype="mobile">Mobile</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    
+                        <h4>Amazing</h4>
+                    <div class="template" id="amazing">
+                        <img src="assets/images/screenshots/amazing.png" class="screenshot shadow" id="screenImg" />
+                        <a class="view desktop-view" data-viewType="desktop">Desktop</a>
+                        <a class="view tablet-view" data-viewType="tablet">Tablet</a>
+                        <a class="view mobile-view" data-viewType="mobile">Mobile</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    
+                        <h4>Blend</h4>
+                    <div class="template" id="blend">
+                        <img src="assets/images/screenshots/blend.png" class="screenshot shadow" />
+                        <a class="view desktop-view" data-viewType="desktop">Desktop</a>
+                        <a class="view tablet-view" data-viewType="tablet">Tablet</a>
+                        <a class="view mobile-view" data-viewType="mobile">Mobile</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row template-row">
+                <div class="col-lg-4 col-md-4">
+                    <h4>Fitness</h4>
+                    <img src="assets/images/screenshots/fitness.png" class="screenshot shadow" />
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h4>Focus</h4>
+                    <img src="assets/images/screenshots/focus.png" class="screenshot shadow" />
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h4>Tork</h4>
+                    <img src="assets/images/screenshots/tork.png" class="screenshot shadow" />
+                </div>
+            </div>
+
+            <div class="row template-row">
+                <div class="col-lg-4 col-md-4">
+                    <h4>Aesthetic</h4>
+                    <img src="assets/images/screenshots/aesthetic.png" class="screenshot shadow" />
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h4>Amazing</h4>
+                    <img src="assets/images/screenshots/amazing.png" class="screenshot shadow" />
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h4>Blend</h4>
+                    <img src="assets/images/screenshots/blend.png" class="screenshot shadow" />
+                </div>
+            </div>
+
+            <div class="row template-row">
+                <div class="col-lg-4 col-md-4">
+                    <h4>Fitness</h4>
+                    <img src="assets/images/screenshots/fitness.png" class="screenshot shadow" />
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h4>Focus</h4>
+                    <img src="assets/images/screenshots/focus.png" class="screenshot shadow" />
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h4>Tork</h4>
+                    <img src="assets/images/screenshots/tork.png" class="screenshot shadow" />
+                </div>
+            </div>
+
+            <!--
+                <div class="portfolio-wrap">
+
+
+                    <div class="row">
+                        <div class="col-lg-5 col-md-5">
+                            <div class="step step-left">
+                                <h4>BRAINSTORM</h4>
+                                <p>We think of the best ways to present your content based on your needs.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2">
+                            <img src="assets/images/brainstorm.svg" />
+                        </div>
+                        <div class="col-lg-5 col-md-5">
+
+                        </div>
+                    </div>
+
+                    <div class="row connector">
+                        <div class="col-lg-5 col-md-5"></div>
+                        <div class="col-lg-1 col-md-1"></div>
+                        <div class="col-lg-1 col-md-1 line"></div>
+                        <div class="col-lg-5 col-md-5"></div>
+                    </div>
+
+
+
+                    <div class="row">
+                        <div class="col-lg-5 col-md-5">
+
+                        </div>
+                        <div class="col-lg-2 col-md-2">
+                            <img src="assets/images/design1.svg" />
+                        </div>
+                        <div class="col-lg-5 col-md-5">
+                            <div class="step step-right">
+                                <h4>DESIGN</h4>
+                                <p>We present mockups of layouts for your approval and either proceed or repeat.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row connector">
+                        <div class="col-lg-5 col-md-5"></div>
+                        <div class="col-lg-1 col-md-1"></div>
+                        <div class="col-lg-1 col-md-1 line"></div>
+                        <div class="col-lg-5 col-md-5"></div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-lg-5 col-md-5">
+                            <div class="step step-left">
+                                <h4>DEVELOP</h4>
+                                <p>Our developers then work on the layouts to make them smooth and efficient.</p>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-2 col-md-2">
+                            <img src="assets/images/develop.svg" />
+                        </div>
+                        <div class="col-lg-5 col-md-5">
+
+                        </div>
+                    </div>
+
+                    <div class="row connector">
+                        <div class="col-lg-5 col-md-5"></div>
+                        <div class="col-lg-1 col-md-1"></div>
+                        <div class="col-lg-1 col-md-1 line"></div>
+                        <div class="col-lg-5 col-md-5"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-5 col-md-5">
+
+                        </div>
+                        <div class="col-lg-2 col-md-2">
+                            <img src="assets/images/test1.svg" />
+                        </div>
+                        <div class="col-lg-5 col-md-5">
+                            <div class="step step-right">
+                                <h4>TEST</h4>
+                                <p>We send you a test site to interact with before publishing on the internet.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row connector">
+                        <div class="col-lg-5 col-md-5"></div>
+                        <div class="col-lg-1 col-md-1"></div>
+                        <div class="col-lg-1 col-md-1 line"></div>
+                        <div class="col-lg-5 col-md-5"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-5 col-md-5">
+                            <div class="step step-left">
+                                <h5>LAUNCH</h5>
+                                <p>After proofing the website, we launch your flawless website on the web.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2">
+                            <img src="assets/images/launch1.svg" />
+                        </div>
+                        <div class="col-lg-5 col-md-5">
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+-->
+
+        </div>
+
+
+        <!-- /container -->
+    </section>
+
+
+
+
+
+
+
+    <div class="scroll-top">
+
+        <div class="scrollup">
+            <i class="fa fa-angle-double-up"></i>
+        </div>
+
+    </div>
+
+    <!--Footer-->
+    <footer id="footer" class="footer">
+        <div class="container">
+
+            <div class="row">
+                <div class="main-footer">
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer-item">
+                            <h2>PORTFOLIO</h2>
+                            <ul>
+                                <li><a href="#">Web Design</a></li>
+                                <li><a href="#">Brand & Identity</a></li>
+                                <li><a href="#">Mobile Design</a></li>
+                                <li><a href="#">Print</a></li>
+                                <li><a href="#">User Interface</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer-item">
+                            <h2>ABOUT</h2>
+                            <ul>
+                                <li><a href="#">The Company</a></li>
+                                <li><a href="#">History</a></li>
+                                <li><a href="#">Vision</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer-item">
+                            <h2>GALLERY</h2>
+                            <ul>
+                                <li><a href="#">lickr</a></li>
+                                <li><a href="#">Picasa</a></li>
+                                <li><a href="#">iStockPhoto</a></li>
+                                <li><a href="#">PhotoDune</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="footer-item">
+                            <h2>CONTACT</h2>
+                            <ul>
+                                <li><a href="#">Basic Info</a></li>
+                                <li><a href="#">Map</a></li>
+                                <li><a href="#">Conctact Form</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="socio-copyright">
+
+                    <div class="social">
+                        <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                        <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                        <a target="_blank" href="#"><i class="fa fa-google-plus"></i></a>
+                        <a target="_blank" href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+
+                    <p>Made with <i class="fa fa-heart"></i> by <a target="_blank" href="http://bootstrapthemes.co"> Bootstrap Themes </a>2016. All rights reserved.</p>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

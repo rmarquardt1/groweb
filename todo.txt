@@ -1,0 +1,41 @@
+- secure ajax requests
+
+- use pdo bind parameter across scripts
+
+- change color of fav star in success using add/remove class
+
+- favClick/delete/edit timeout
+
+- remove 'not-set'
+
+- ga spreadsheet addon
+
+- standardize view id across site
+
+- alerts
+
+- check jQuery versions
+
+- check if plugins.js and localScroll is needed
+
+- remove statemap
+
+- change yes to true
+
+- check empty dates on valueArray
+
+
+
+
+
+
+
+
+
+
+
+3. Not sanitizing user input
+This should probably be #1: never trust user input. Validate every string using server-side PHP — don’t rely on JavaScript. The simplest SQL injection attacks depend on code such as:
+
+
+
